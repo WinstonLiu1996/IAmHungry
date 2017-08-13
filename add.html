@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>I'M HUNGRY</title>
+    <link rel="stylesheet" type="text/css" href="css/login_style.css">
+</head>
+<body>
+<img class="bg-img" src="img/bg-img.png">
+<nav>
+    <p>I'M HUNGRY</p>
+    <ul>
+        <li><a href="index.html">下载</a></li>
+        <li><a href="about.html">关于我们</a></li>
+        <li><a href="login.html">登陆</a></li>
+        <li><a href="register.html">注册账号</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <form id="add_form">
+
+        <legend>添加自己的餐厅吧！</legend>
+
+        <input id="add_name" type="text" name="name" placeholder="餐厅名称（必填）" required>
+
+        <input id="add_type" type="text" name="type" placeholder="餐厅种类">
+
+        <input id="add_address" type="text" name="address" placeholder="地址">
+
+        <input id="add_img" type="url" name="img_link" placeholder="餐厅图片链接">
+
+        <!-- Todo notice: How to add an image/zip ??? -->
+
+        <button id="submit_form" class="btn-send">一键添加</button>
+
+    </form>
+</div>
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.12.4.min.js"> </script>
+
+<!--later override former-->
+
+<script type="text/javascript" src="js/script.js"> </script>
+
+
+</body>
+</html>
